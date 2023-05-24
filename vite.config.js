@@ -1,6 +1,5 @@
 import react from '@vitejs/plugin-react'
 import sassDts from 'vite-plugin-sass-dts'
-import reactPlugin from 'vite-plugin-react'
 import path from 'path';
 const __dirname = path.resolve();
 
