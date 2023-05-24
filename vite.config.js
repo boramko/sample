@@ -5,7 +5,7 @@ const __dirname = path.resolve();
 
 export default {
   jsx: 'react',
-  plugins: [react(), sassDts(), reactPlugin()],
+  plugins: [react(), sassDts()],
   resolve: {
     alias: {
       '~': `${__dirname}/src`,
