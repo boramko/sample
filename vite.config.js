@@ -8,9 +8,6 @@ export default {
   resolve: {
     alias: {
       '~': `${__dirname}/src`,
-      '@': path.resolve(__dirname, 'src/main.jsx')
     }
   }
-  ,appType: 'spa'
-
 };
